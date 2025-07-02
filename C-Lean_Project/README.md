@@ -2,6 +2,7 @@
 
 Is a system utility written in C for cleaning common temporary files and logs on Linux systems. It provides an easy-to-use interactive menu for users who may not be familiar with Linux commands. 
 
+
 # 📦 Features
 
  - Interactive menu with easy-to-understand options.
@@ -22,11 +23,20 @@ Is a system utility written in C for cleaning common temporary files and logs on
  
 # 🚀 Running
 
- 1. Clone or download this repository:
+   1. Clone or download this repository:
+ 
+    git clone https://github.com/Zzorro-Kid/CLean_Project.git
+
+   2. Navigate to the project directory:
+
+    cd C-Lean_Project
     
- 2. Navigate to the project directory:
- 
- 3. Compile the source code:
- 
- 4. Run the program:
+   3. Run the helper script to start the cleaner in a new terminal window:
+
+    ./run_syscleaner.sh
+
+   4. Follow the on-screen menu to select cleaning options
+
+   ![image](https://github.com/user-attachments/assets/ad6f0cfd-ddad-441e-9cd4-fd6c12cf1f16)
+
     
