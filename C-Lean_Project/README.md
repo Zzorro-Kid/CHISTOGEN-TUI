@@ -3,7 +3,7 @@
 Is a system utility written in C for cleaning common temporary files and logs on Linux systems. It provides an easy-to-use interactive menu for users who may not be familiar with Linux commands. 
 
 
-# 📦 Features
+## 📦 Features
 
  - Interactive menu with easy-to-understand options.
  - Clean temporary files.
@@ -14,14 +14,14 @@ Is a system utility written in C for cleaning common temporary files and logs on
  - Automatically detects and runs in common terminal emulators (Konsole, GNOME Terminal, XFCE Terminal & others).
  
  
-# 🔧 Prerequisites
+## 🔧 Prerequisites
 
  - Linux operating system.
  - GCC compiler to build the project.
  - At least one terminal emulator installed.
  
  
-# 🚀 Running
+## 🚀 Running
 
    1. Clone or download this repository:
  
