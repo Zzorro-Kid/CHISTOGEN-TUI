@@ -18,7 +18,7 @@ Is a system utility written in C for cleaning common temporary files and logs on
 
  - Linux operating system.
  - GCC compiler to build the project.
- - At least one terminal emulator installed
+ - At least one terminal emulator installed.
  
  
 # 🚀 Running
