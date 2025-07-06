@@ -48,6 +48,7 @@ void clean_logs(const char *path) {
     }
 
     struct dirent *entry;
+    
     char filepath[512];
     time_t now = time(NULL);
     int deleted = 0;
