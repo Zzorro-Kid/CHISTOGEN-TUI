@@ -29,25 +29,30 @@ int main() {
         switch (choice) {
             case 1:
                 clean_tmp("/tmp");
-                break;
+            break;
+            
             case 2: {
                 char cache_path[512];
                 snprintf(cache_path, sizeof(cache_path), "%s/.cache", home);
                 clean_tmp(cache_path);
                 break;
             }
+            
             case 3:
                 clean_logs("/var/log");
-                break;
+            break;
+            
             case 4: {
                 char trash_path[512];
                 snprintf(trash_path, sizeof(trash_path), "%s/.local/share/Trash/files", home);
                 clean_tmp(trash_path);
                 break;
             }
+            
             case 5:
                 show_disk_usage("/");
-                break;
+            break;
+            
             case 6:
                 clean_tmp("/tmp");
 
@@ -62,14 +67,17 @@ int main() {
                 clean_tmp(trash_path);
 
                 break;
+            
             case 0:
                 printf("Exit.\n");
-                break;
+            break;
+            
             default:
                 printf("Wrong choice.\n");
         }
 
     } while (choice != 0);
 
+    
     return 0;
 }
