@@ -2,6 +2,8 @@
 
 A powerful Linux system cleaning tool with intelligent analysis and secure deletion capabilities.
 
+<img width="587" height="132" alt="image" src="https://github.com/user-attachments/assets/c0c1ea52-ea40-457d-bf45-cef8d206edd8" />
+
 
 ## 📦 Features
 
