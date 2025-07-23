@@ -26,7 +26,7 @@ A powerful Linux system cleaning tool with intelligent analysis and secure delet
 
    1. Clone or download this repository:
  
-    git clone https://github.com/Zzorro-Kid/....git
+    git clone https://github.com/Zzorro-Kid/CHISTOGEN-TUI.git
 
    2. Navigate to the project directory:
 
