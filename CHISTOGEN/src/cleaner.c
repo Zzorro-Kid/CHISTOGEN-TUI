@@ -21,7 +21,6 @@
 #define COLOR_CYAN    "\033[1;36m"
 #define COLOR_RESET   "\033[0m"
 
-// Вспомогательная функция для вычисления MD5
 static void calculate_md5(const char *filename, unsigned char *md5_sum) {
     FILE *file = fopen(filename, "rb");
     if (!file) {
@@ -226,7 +225,6 @@ void clean_package_cache() {
 void scan_personal_data(const char *path) {
     printf(COLOR_CYAN "\n🔍 Поиск личных данных в %s...\n" COLOR_RESET);
     
-    // Регулярные выражения для поиска чувствительных данных
     struct {
         const char *pattern;
         const char *description;
